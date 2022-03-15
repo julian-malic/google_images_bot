@@ -3,4 +3,5 @@ Simple NodeJS discord bot that uses google custom search engine API to search go
 
 ## Required Packages
 https://www.npmjs.com/package/google-images
+</br>
 https://www.npmjs.com/package/discord.js

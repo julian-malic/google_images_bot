@@ -5,6 +5,8 @@ Simple NodeJS discord bot that uses google custom search engine API to search go
 https://www.npmjs.com/package/google-images
 </br>
 https://www.npmjs.com/package/discord.js
-
+</br>
+If you want to register the /search command you must first run deploy-commands.js and then when you run your bot /search should appear in the discord command list.
+Otherwise you can ignore it and use whatever command mechanism you prefer.
 ## Video
 ![Alt Text](https://media.giphy.com/media/KEvEY8P6YuE3fdKNy6/giphy.gif)

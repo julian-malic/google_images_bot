@@ -22,7 +22,8 @@ client.on('interactionCreate', async interaction => {
 		query = interaction.options.getString('input');
 		google.search(query)
 		.then(images => {
-			interaction.reply(images[Math.floor(Math.random() * images.length)].url); // random image from result
+			const random_idx = Math.floor(Math.random() * images.length);
+			interaction.reply(images[random_idx].url); // random image from result
 		});
 	}
 });

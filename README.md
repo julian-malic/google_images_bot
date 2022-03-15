@@ -1,5 +1,5 @@
 # google_images_bot
-Simple NodeJS discord bot that uses google custom search engine API to search google images with a given query and reply with a random image from the search (1-10).
+Simple NodeJS discord bot that uses google custom search engine API to search google images with a given query and reply with a random image from the search.
 
 ## Registering /search command
 If you want to register the /search command you must first run deploy-commands.js, now /search should appear in the discord command list.
